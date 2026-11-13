@@ -1287,6 +1287,11 @@ body {
   font-size: 18px;
   scroll-behavior: smooth; }
 
+html {
+  scroll-padding-top: 122px; }
+  @media (max-width: 992px) {
+    html {
+      scroll-padding-top: 76px; } }
 body {
   background-color: white;
   font-family: SUSE, Suse, Roboto, sans-serif;
@@ -3125,6 +3130,9 @@ article a:hover code {
 .verbatim-wrap.copy-success > div,
 .verbatim-wrap.copy-success > pre {
   background-color: #0b41b8; }
+
+.verbatim-wrap span.hide {
+  display: none; }
 
 @media screen {
   .hljs {
